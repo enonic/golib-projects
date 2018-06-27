@@ -4,9 +4,9 @@ import (
 	"github.com/machinebox/graphql"
 	"log"
 	"context"
-	"github.com/enonic/projects/domain"
-	"github.com/enonic/projects/queries"
-	"github.com/enonic/projects/config"
+	"github.com/enonic/golib-projects/config"
+	"github.com/enonic/golib-projects/domain"
+	"github.com/enonic/golib-projects/queries"
 )
 
 type Client struct {

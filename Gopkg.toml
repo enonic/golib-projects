@@ -25,6 +25,18 @@
 #   unused-packages = true
 
 
+[[constraint]]
+  name = "github.com/go-yaml/yaml"
+  version = "2.2.1"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/golang/glog"
+
+[[constraint]]
+  name = "github.com/machinebox/graphql"
+  version = "0.2.2"
+
 [prune]
   go-tests = true
   unused-packages = true

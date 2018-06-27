@@ -4,13 +4,13 @@ import (
 	"flag"
 	"fmt"
 	"github.com/golang/glog"
-	"github.com/enonic/projects/config"
+	"github.com/enonic/golib-projects/config"
 )
 
 func main() {
 
 	args := parseargs()
-	
+
 	clientConfig, err := config.Create(args.config)
 
 	if err != nil {
