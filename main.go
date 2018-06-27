@@ -1,16 +1,16 @@
-package main
+package projects
 
 import (
 	"flag"
-	"github.com/enonic/projects/config"
 	"fmt"
 	"github.com/golang/glog"
+	"github.com/enonic/projects/config"
 )
 
 func main() {
 
 	args := parseargs()
-
+	
 	clientConfig, err := config.Create(args.config)
 
 	if err != nil {

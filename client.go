@@ -1,4 +1,4 @@
-package main
+package projects
 
 import (
 	"github.com/machinebox/graphql"
