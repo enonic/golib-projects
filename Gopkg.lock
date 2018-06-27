@@ -2,18 +2,6 @@
 
 
 [[projects]]
-  name = "github.com/go-yaml/yaml"
-  packages = ["."]
-  revision = "5420a8b6744d3b0345ab293f6fcba19c978f1183"
-  version = "v2.2.1"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/golang/glog"
-  packages = ["."]
-  revision = "23def4e6c14b4da8ac2ed8007337bc5eb5007998"
-
-[[projects]]
   name = "github.com/machinebox/graphql"
   packages = ["."]
   revision = "05b17f3157491bbfa5d6fc2006443a272d960d15"
@@ -28,6 +16,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "9a51b7cbbb106d34ffa28bad469b9c812ba8facf434f19266a9396421522d674"
+  inputs-digest = "f81559eed7e01c5d9bd5855aef7291113716ebe099f6aaecc25af4ad8ee21c3d"
   solver-name = "gps-cdcl"
   solver-version = 1
